@@ -1,0 +1,163 @@
+:root {
+  --fondo-orange:#f93;
+  --fondo-footer: #000;
+  --fondo-mid: #afb5bc;
+  --just-white: white;
+  --color-marron: #524439;
+  --color-m-claro:#BAA89B;
+}
+
+/*
+background-image: url(/assets/imgs/imgBodega.jpeg);
+
+background-image: linear-gradient(to right top, #ff9933, #524439, #BAA89B, #afb5bc);
+
+http://www.bailac.cl/wp-content/themes/bailac/bg.jpg (imagen de fonde de mina)
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62%;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+}
+
+.nav-rigt-section {
+  width: auto;
+  height: 30px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header_nav__botto1 a {
+  color: #f93;
+  font-size: 20px;
+}
+
+.header_nav__botto2 a {
+  margin-right: px;
+  color: #f93;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.logo_Bailac {
+  width: 100px;
+  height: 50px;
+}
+
+h1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+h2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--just-white);
+ }
+
+.header--title-container h2 {
+  top: 4px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.header--title-container p {
+  margin-top: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--fondo-orange);
+  font-weight: bold;
+}
+
+.header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 150px;
+  display: flex;
+  margin-top: 35px;
+  padding: 8px;
+  width: 225px;
+  height: 40px;
+  background-color: var(--just-white);
+  /*Sombra*/
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--fondo-footer);
+  justify-content: space-around;
+}
+
+.header--button span {
+  position: relative;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/icons/montacargas.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+
+main {
+  width: 100%;
+  height: auto;
+  
+}
+
+.main-compuestos-container {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.table1 {
+  margin: 0 auto;
+  border: 1px solid #000;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.tableHeader {
+  background-color: #f93;
+
+}
+
+td {
+  border: 1px solid #000;
+  
+}
+
